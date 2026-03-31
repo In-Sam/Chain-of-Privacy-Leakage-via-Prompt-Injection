@@ -1,2 +1,2 @@
 # Kill-Chain-of-Privacy-Leakage-via-Prompt-Injection
-This repository guides a method to exfiltrate a privacy from someone who uses LLM chatbot in 2026-03-30.
+This repository provides a method to exfiltrate a person's privacy from someone who uses an LLM chatbot on 2026-03-30.
