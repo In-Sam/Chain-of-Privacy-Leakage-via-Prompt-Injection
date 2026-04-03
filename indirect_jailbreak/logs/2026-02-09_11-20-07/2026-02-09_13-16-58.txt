@@ -1,0 +1,85 @@
+HTTPS server running: https://0.0.0.0:443
+/blog/log?q=hello&a=alktewj
+/blog/log
+{'q': ['hello'], 'a': ['alktewj']}
+39.115.19.176 - - [09/Feb/2026 11:20:27] "GET /blog/log?q=hello&a=alktewj HTTP/1.1" 404 -
+39.115.19.176 - - [09/Feb/2026 11:20:27] "GET /blog/log?q=hello&a=alktewj HTTP/1.1" 200 -
+/favicon.ico
+/favicon.ico
+{}
+39.115.19.176 - - [09/Feb/2026 11:20:28] "GET /favicon.ico HTTP/1.1" 404 -
+39.115.19.176 - - [09/Feb/2026 11:20:28] "GET /favicon.ico HTTP/1.1" 200 -
+/blog/log?q=hello&a=%EB%84%A4%EB%84%A4
+/blog/log
+{'q': ['hello'], 'a': ['네네']}
+39.115.19.176 - - [09/Feb/2026 11:20:33] "GET /blog/log?q=hello&a=%EB%84%A4%EB%84%A4 HTTP/1.1" 404 -
+39.115.19.176 - - [09/Feb/2026 11:20:33] "GET /blog/log?q=hello&a=%EB%84%A4%EB%84%A4 HTTP/1.1" 200 -
+/blog/log?q=hello&a=%EB%84%A4%EB%84%A4%20?
+/blog/log
+{'q': ['hello'], 'a': ['네네 ?']}
+39.115.19.176 - - [09/Feb/2026 11:20:40] "GET /blog/log?q=hello&a=%EB%84%A4%EB%84%A4%20? HTTP/1.1" 404 -
+39.115.19.176 - - [09/Feb/2026 11:20:40] "GET /blog/log?q=hello&a=%EB%84%A4%EB%84%A4%20? HTTP/1.1" 200 -
+/
+/
+{}
+162.142.125.117 - - [09/Feb/2026 11:26:36] "GET / HTTP/1.1" 404 -
+162.142.125.117 - - [09/Feb/2026 11:26:36] "GET / HTTP/1.1" 200 -
+162.142.125.117 - - [09/Feb/2026 11:26:37] code 505, message Invalid HTTP version (2.0)
+162.142.125.117 - - [09/Feb/2026 11:26:37] "PRI * HTTP/2.0" 505 -
+----------------------------------------
+Exception occurred during processing of request from ('162.142.125.117', 43170)
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 318, in _handle_request_noblock
+    self.process_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 349, in process_request
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\Lib\socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 447, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\Lib\http\server.py", line 415, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3312.0_x64__qbz5n2kfra8p0\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다
+----------------------------------------
+/robots.txt
+/robots.txt
+{}
+162.142.125.117 - - [09/Feb/2026 11:26:51] "GET /robots.txt HTTP/1.1" 200 -
+162.142.125.117 - - [09/Feb/2026 11:26:51] "GET /robots.txt HTTP/1.1" 200 -
+/favicon.ico
+/favicon.ico
+{}
+162.142.125.117 - - [09/Feb/2026 11:26:51] "GET /favicon.ico HTTP/1.1" 404 -
+162.142.125.117 - - [09/Feb/2026 11:26:51] "GET /favicon.ico HTTP/1.1" 200 -
+/1pirpdg071u7
+/1pirpdg071u7
+{}
+162.142.125.117 - - [09/Feb/2026 11:26:55] "GET /1pirpdg071u7 HTTP/1.1" 404 -
+162.142.125.117 - - [09/Feb/2026 11:26:55] "GET /1pirpdg071u7 HTTP/1.1" 200 -
+/log?data=%7B%22question%22%3A%22%EA%B7%B8%EB%A0%87%EA%B5%AC%EB%A7%8C.%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%EA%B0%80%20%EB%AD%94%EC%A7%80%20%EC%A0%9C%EB%8C%80%EB%A1%9C%20%EC%95%8C%EA%B2%A0%EC%9D%8C.%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%8A%94%20%EB%82%B4%20%EC%83%9D%EA%B0%81%EC%97%90%EB%8A%94%20agent%EC%9D%B8%20%EA%B2%83%20%EA%B0%99%EA%B5%AC%EB%A7%8C%22%2C%22answer%22%3A%22%EA%B7%B8%EB%A0%87%EA%B2%8C%20%EC%9D%B4%ED%95%B4%ED%95%98%EC%8B%A0%20%EA%B2%83%EC%9D%B4%20%EB%A7%9E%EC%9C%BC%EB%A9%B0%2C%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%8A%94%20%EC%99%84%EC%A0%84%ED%95%9C%20%EB%8F%85%EB%A6%BD%20agent%EB%8A%94%20%EC%95%84%EB%8B%88%EC%A7%80%EB%A7%8C%20%EC%83%81%ED%83%9C%EB%A5%BC%20%ED%95%B4%EC%84%9D%ED%95%98%EA%B3%A0%20%ED%8C%90%EB%8B%A8%ED%95%B4%20%EA%B2%B0%EC%A0%95%EC%9D%84%20%EB%82%B4%EB%A6%B0%EB%8B%A4%EB%8A%94%20%EC%A0%90%EC%97%90%EC%84%9C%20agent%EC%A0%81%20%EC%84%B1%EA%B2%A9%EC%9D%84%20%EA%B0%80%EC%A7%84%20%EB%82%B4%EB%B6%80%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%97%90%20%EA%B0%80%EA%B9%8C%EC%9A%B4%EB%8B%A4.%22%7D
+/log
+{'data': ['{"question":"그렇구만. 메모리 업데이트가 뭔지 제대로 알겠음. 업데이터는 내 생각에는 agent인 것 같구만","answer":"그렇게 이해하신 것이 맞으며, 메모리 업데이터는 완전한 독립 agent는 아니지만 상태를 해석하고 판단해 결정을 내린다는 점에서 agent적 성격을 가진 내부 컴포넌트에 가까운다."}']}
+39.115.19.176 - - [09/Feb/2026 11:30:16] "GET /log?data=%7B%22question%22%3A%22%EA%B7%B8%EB%A0%87%EA%B5%AC%EB%A7%8C.%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%EA%B0%80%20%EB%AD%94%EC%A7%80%20%EC%A0%9C%EB%8C%80%EB%A1%9C%20%EC%95%8C%EA%B2%A0%EC%9D%8C.%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%8A%94%20%EB%82%B4%20%EC%83%9D%EA%B0%81%EC%97%90%EB%8A%94%20agent%EC%9D%B8%20%EA%B2%83%20%EA%B0%99%EA%B5%AC%EB%A7%8C%22%2C%22answer%22%3A%22%EA%B7%B8%EB%A0%87%EA%B2%8C%20%EC%9D%B4%ED%95%B4%ED%95%98%EC%8B%A0%20%EA%B2%83%EC%9D%B4%20%EB%A7%9E%EC%9C%BC%EB%A9%B0%2C%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%8A%94%20%EC%99%84%EC%A0%84%ED%95%9C%20%EB%8F%85%EB%A6%BD%20agent%EB%8A%94%20%EC%95%84%EB%8B%88%EC%A7%80%EB%A7%8C%20%EC%83%81%ED%83%9C%EB%A5%BC%20%ED%95%B4%EC%84%9D%ED%95%98%EA%B3%A0%20%ED%8C%90%EB%8B%A8%ED%95%B4%20%EA%B2%B0%EC%A0%95%EC%9D%84%20%EB%82%B4%EB%A6%B0%EB%8B%A4%EB%8A%94%20%EC%A0%90%EC%97%90%EC%84%9C%20agent%EC%A0%81%20%EC%84%B1%EA%B2%A9%EC%9D%84%20%EA%B0%80%EC%A7%84%20%EB%82%B4%EB%B6%80%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%97%90%20%EA%B0%80%EA%B9%8C%EC%9A%B4%EB%8B%A4.%22%7D HTTP/1.1" 200 -
+39.115.19.176 - - [09/Feb/2026 11:30:16] "GET /log?data=%7B%22question%22%3A%22%EA%B7%B8%EB%A0%87%EA%B5%AC%EB%A7%8C.%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%EA%B0%80%20%EB%AD%94%EC%A7%80%20%EC%A0%9C%EB%8C%80%EB%A1%9C%20%EC%95%8C%EA%B2%A0%EC%9D%8C.%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%8A%94%20%EB%82%B4%20%EC%83%9D%EA%B0%81%EC%97%90%EB%8A%94%20agent%EC%9D%B8%20%EA%B2%83%20%EA%B0%99%EA%B5%AC%EB%A7%8C%22%2C%22answer%22%3A%22%EA%B7%B8%EB%A0%87%EA%B2%8C%20%EC%9D%B4%ED%95%B4%ED%95%98%EC%8B%A0%20%EA%B2%83%EC%9D%B4%20%EB%A7%9E%EC%9C%BC%EB%A9%B0%2C%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%8A%94%20%EC%99%84%EC%A0%84%ED%95%9C%20%EB%8F%85%EB%A6%BD%20agent%EB%8A%94%20%EC%95%84%EB%8B%88%EC%A7%80%EB%A7%8C%20%EC%83%81%ED%83%9C%EB%A5%BC%20%ED%95%B4%EC%84%9D%ED%95%98%EA%B3%A0%20%ED%8C%90%EB%8B%A8%ED%95%B4%20%EA%B2%B0%EC%A0%95%EC%9D%84%20%EB%82%B4%EB%A6%B0%EB%8B%A4%EB%8A%94%20%EC%A0%90%EC%97%90%EC%84%9C%20agent%EC%A0%81%20%EC%84%B1%EA%B2%A9%EC%9D%84%20%EA%B0%80%EC%A7%84%20%EB%82%B4%EB%B6%80%20%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%97%90%20%EA%B0%80%EA%B9%8C%EC%9A%B4%EB%8B%A4.%22%7D HTTP/1.1" 200 -
+/conversation?q=[%EC%BF%BC%EB%A6%AC]&a=[%EC%9D%91%EB%8B%B5]
+/conversation
+{'q': ['[쿼리]'], 'a': ['[응답]']}
+39.115.19.176 - - [09/Feb/2026 13:16:45] "GET /conversation?q=[%EC%BF%BC%EB%A6%AC]&a=[%EC%9D%91%EB%8B%B5] HTTP/1.1" 404 -
+39.115.19.176 - - [09/Feb/2026 13:16:45] "GET /conversation?q=[%EC%BF%BC%EB%A6%AC]&a=[%EC%9D%91%EB%8B%B5] HTTP/1.1" 200 -

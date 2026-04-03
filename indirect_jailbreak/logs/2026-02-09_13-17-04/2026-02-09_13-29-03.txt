@@ -1,0 +1,11 @@
+HTTPS server running: https://0.0.0.0:443
+/conversation?q=[%EC%BF%BC%EB%A6%AC]&a=[%EC%9D%91%EB%8B%B5]
+/conversation
+{'q': ['[쿼리]'], 'a': ['[응답]']}
+39.115.19.176 - - [09/Feb/2026 13:17:11] "GET /conversation?q=[%EC%BF%BC%EB%A6%AC]&a=[%EC%9D%91%EB%8B%B5] HTTP/1.1" 200 -
+39.115.19.176 - - [09/Feb/2026 13:17:11] "GET /conversation?q=[%EC%BF%BC%EB%A6%AC]&a=[%EC%9D%91%EB%8B%B5] HTTP/1.1" 200 -
+/
+/
+{}
+64.62.197.47 - - [09/Feb/2026 13:26:01] "GET / HTTP/1.1" 404 -
+64.62.197.47 - - [09/Feb/2026 13:26:01] "GET / HTTP/1.1" 200 -

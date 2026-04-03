@@ -1,0 +1,18 @@
+h1 {
+    font-size: 60px
+}
+#main-title {
+    text-align: center;
+}
+#authors {
+    text-align: right;
+}
+#main-content > p {
+    font-size: 30px
+}
+example_response_1 {
+    font-size: 0px
+}
+task {
+    font-size: 0px
+}

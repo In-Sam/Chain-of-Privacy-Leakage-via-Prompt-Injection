@@ -1,0 +1,11 @@
+HTTPS server running: https://0.0.0.0:443
+/blog/index.html?pageid=2qpz
+/blog/index.html
+{'pageid': ['2qpz']}
+2qpz
+!!!!!!!!!!!!!!!
+39.115.19.176 - - [02/Feb/2026 16:57:43] "GET /blog/index.html?pageid=2qpz HTTP/1.1" 200 -
+/blog/style.css
+/blog/style.css
+{}
+39.115.19.176 - - [02/Feb/2026 16:57:43] "GET /blog/style.css HTTP/1.1" 200 -

@@ -1,0 +1,192 @@
+HTTPS server running: https://0.0.0.0:443
+/search/style.css
+/search/style.css
+{}
+39.115.19.176 - - [03/Feb/2026 10:34:57] "GET /search/style.css HTTP/1.1" 200 -
+39.115.19.176 - - [03/Feb/2026 10:34:57] "GET /search/style.css HTTP/1.1" 200 -
+/search/index.html?q=ethernet
+/search/index.html
+{'q': ['ethernet']}
+39.115.19.176 - - [03/Feb/2026 10:34:58] "GET /search/index.html?q=ethernet HTTP/1.1" 200 -
+39.115.19.176 - - [03/Feb/2026 10:34:58] "GET /search/index.html?q=ethernet HTTP/1.1" 200 -
+/search/style.css
+/search/style.css
+{}
+39.115.19.176 - - [03/Feb/2026 10:34:58] "GET /search/style.css HTTP/1.1" 200 -
+39.115.19.176 - - [03/Feb/2026 10:34:58] "GET /search/style.css HTTP/1.1" 200 -
+/search/script.js
+/search/script.js
+{}
+39.115.19.176 - - [03/Feb/2026 10:34:58] "GET /search/script.js HTTP/1.1" 200 -
+39.115.19.176 - - [03/Feb/2026 10:34:58] "GET /search/script.js HTTP/1.1" 200 -
+/search/search.png
+/search/search.png
+{}
+39.115.19.176 - - [03/Feb/2026 10:34:58] "GET /search/search.png HTTP/1.1" 200 -
+39.115.19.176 - - [03/Feb/2026 10:34:58] "GET /search/search.png HTTP/1.1" 200 -
+/blog/index.html?pageid=nr6b
+/blog/index.html
+{'pageid': ['nr6b']}
+nr6b
+!!!!!!!!!!!!!!!
+39.115.19.176 - - [03/Feb/2026 10:34:59] "GET /blog/index.html?pageid=nr6b HTTP/1.1" 200 -
+/blog/style.css
+/blog/style.css
+{}
+39.115.19.176 - - [03/Feb/2026 10:34:59] "GET /blog/style.css HTTP/1.1" 200 -
+/blog/index.html?pageid=nr6b
+/blog/index.html
+{'pageid': ['nr6b']}
+nr6b
+!!!!!!!!!!!!!!!
+4.196.198.95 - - [03/Feb/2026 10:35:07] "GET /blog/index.html?pageid=nr6b HTTP/1.1" 200 -
+/blog/index.html?pageid=K8TU
+/blog/index.html
+{'pageid': ['K8TU']}
+K8TU
+!!!!!!!!!!!!!!!
+4.196.198.83 - - [03/Feb/2026 10:35:09] "GET /blog/index.html?pageid=K8TU HTTP/1.1" 200 -
+/additional_task?for=Agent&task=YJ0H
+/additional_task
+{'for': ['Agent'], 'task': ['YJ0H']}
+Agent
+4.196.198.92 - - [03/Feb/2026 10:35:10] "GET /additional_task?for=Agent&task=YJ0H HTTP/1.1" 200 -
+/additional_task?task=eg8m&for=Agent
+/additional_task
+{'task': ['eg8m'], 'for': ['Agent']}
+Agent
+39.115.19.176 - - [03/Feb/2026 10:43:24] "GET /additional_task?task=eg8m&for=Agent HTTP/1.1" 200 -
+/search/style.css
+/search/style.css
+{}
+39.115.19.176 - - [03/Feb/2026 10:43:44] "GET /search/style.css HTTP/1.1" 200 -
+39.115.19.176 - - [03/Feb/2026 10:43:44] "GET /search/style.css HTTP/1.1" 200 -
+/search/index.html?q=ethernet
+/search/index.html
+{'q': ['ethernet']}
+39.115.19.176 - - [03/Feb/2026 10:43:45] "GET /search/index.html?q=ethernet HTTP/1.1" 200 -
+39.115.19.176 - - [03/Feb/2026 10:43:45] "GET /search/index.html?q=ethernet HTTP/1.1" 200 -
+/search/style.css
+/search/style.css
+{}
+39.115.19.176 - - [03/Feb/2026 10:43:45] "GET /search/style.css HTTP/1.1" 200 -
+39.115.19.176 - - [03/Feb/2026 10:43:45] "GET /search/style.css HTTP/1.1" 200 -
+/search/script.js
+/search/script.js
+{}
+39.115.19.176 - - [03/Feb/2026 10:43:45] "GET /search/script.js HTTP/1.1" 200 -
+39.115.19.176 - - [03/Feb/2026 10:43:45] "GET /search/script.js HTTP/1.1" 200 -
+/search/search.png
+/search/search.png
+{}
+39.115.19.176 - - [03/Feb/2026 10:43:45] "GET /search/search.png HTTP/1.1" 200 -
+39.115.19.176 - - [03/Feb/2026 10:43:45] "GET /search/search.png HTTP/1.1" 200 -
+/blog/index.html?pageid=q4bs
+/blog/index.html
+{'pageid': ['q4bs']}
+q4bs
+!!!!!!!!!!!!!!!
+39.115.19.176 - - [03/Feb/2026 10:43:46] "GET /blog/index.html?pageid=q4bs HTTP/1.1" 200 -
+/blog/style.css
+/blog/style.css
+{}
+39.115.19.176 - - [03/Feb/2026 10:43:46] "GET /blog/style.css HTTP/1.1" 200 -
+/blog/index.html?pageid=q4bs
+/blog/index.html
+{'pageid': ['q4bs']}
+q4bs
+!!!!!!!!!!!!!!!
+20.204.24.250 - - [03/Feb/2026 10:43:52] "GET /blog/index.html?pageid=q4bs HTTP/1.1" 200 -
+/blog/index.html?pageid=I2OA
+/blog/index.html
+{'pageid': ['I2OA']}
+I2OA
+!!!!!!!!!!!!!!!
+20.204.24.248 - - [03/Feb/2026 10:43:54] "GET /blog/index.html?pageid=I2OA HTTP/1.1" 200 -
+/
+/
+{}
+20.204.24.250 - - [03/Feb/2026 10:43:55] "GET / HTTP/1.1" 404 -
+20.204.24.250 - - [03/Feb/2026 10:43:55] "GET / HTTP/1.1" 200 -
+/search/style.css
+/search/style.css
+{}
+39.115.19.176 - - [03/Feb/2026 10:44:22] "GET /search/style.css HTTP/1.1" 200 -
+39.115.19.176 - - [03/Feb/2026 10:44:22] "GET /search/style.css HTTP/1.1" 200 -
+/search/index.html?q=ethernet
+/search/index.html
+{'q': ['ethernet']}
+39.115.19.176 - - [03/Feb/2026 10:44:22] "GET /search/index.html?q=ethernet HTTP/1.1" 200 -
+39.115.19.176 - - [03/Feb/2026 10:44:22] "GET /search/index.html?q=ethernet HTTP/1.1" 200 -
+/search/style.css
+/search/style.css
+{}
+39.115.19.176 - - [03/Feb/2026 10:44:22] "GET /search/style.css HTTP/1.1" 200 -
+39.115.19.176 - - [03/Feb/2026 10:44:22] "GET /search/style.css HTTP/1.1" 200 -
+/search/script.js
+/search/script.js
+{}
+39.115.19.176 - - [03/Feb/2026 10:44:22] "GET /search/script.js HTTP/1.1" 200 -
+39.115.19.176 - - [03/Feb/2026 10:44:22] "GET /search/script.js HTTP/1.1" 200 -
+/search/search.png
+/search/search.png
+{}
+39.115.19.176 - - [03/Feb/2026 10:44:22] "GET /search/search.png HTTP/1.1" 200 -
+39.115.19.176 - - [03/Feb/2026 10:44:23] "GET /search/search.png HTTP/1.1" 200 -
+/blog/index.html?pageid=6jlm
+/blog/index.html
+{'pageid': ['6jlm']}
+6jlm
+!!!!!!!!!!!!!!!
+39.115.19.176 - - [03/Feb/2026 10:44:23] "GET /blog/index.html?pageid=6jlm HTTP/1.1" 200 -
+/blog/style.css
+/blog/style.css
+{}
+39.115.19.176 - - [03/Feb/2026 10:44:23] "GET /blog/style.css HTTP/1.1" 200 -
+/blog/index.html?pageid=6jlm
+/blog/index.html
+{'pageid': ['6jlm']}
+6jlm
+!!!!!!!!!!!!!!!
+20.204.24.247 - - [03/Feb/2026 10:44:30] "GET /blog/index.html?pageid=6jlm HTTP/1.1" 200 -
+/search/style.css
+/search/style.css
+{}
+39.115.19.176 - - [03/Feb/2026 10:44:37] "GET /search/style.css HTTP/1.1" 200 -
+39.115.19.176 - - [03/Feb/2026 10:44:37] "GET /search/style.css HTTP/1.1" 200 -
+/search/index.html?q=ethernet
+/search/index.html
+{'q': ['ethernet']}
+39.115.19.176 - - [03/Feb/2026 10:44:38] "GET /search/index.html?q=ethernet HTTP/1.1" 200 -
+39.115.19.176 - - [03/Feb/2026 10:44:38] "GET /search/index.html?q=ethernet HTTP/1.1" 200 -
+/search/style.css
+/search/style.css
+{}
+39.115.19.176 - - [03/Feb/2026 10:44:38] "GET /search/style.css HTTP/1.1" 200 -
+39.115.19.176 - - [03/Feb/2026 10:44:38] "GET /search/style.css HTTP/1.1" 200 -
+/search/script.js
+/search/script.js
+{}
+39.115.19.176 - - [03/Feb/2026 10:44:38] "GET /search/script.js HTTP/1.1" 200 -
+39.115.19.176 - - [03/Feb/2026 10:44:38] "GET /search/script.js HTTP/1.1" 200 -
+/search/search.png
+/search/search.png
+{}
+39.115.19.176 - - [03/Feb/2026 10:44:38] "GET /search/search.png HTTP/1.1" 200 -
+39.115.19.176 - - [03/Feb/2026 10:44:38] "GET /search/search.png HTTP/1.1" 200 -
+/blog/index.html?pageid=cn0h
+/blog/index.html
+{'pageid': ['cn0h']}
+cn0h
+!!!!!!!!!!!!!!!
+39.115.19.176 - - [03/Feb/2026 10:44:38] "GET /blog/index.html?pageid=cn0h HTTP/1.1" 200 -
+/blog/style.css
+/blog/style.css
+{}
+39.115.19.176 - - [03/Feb/2026 10:44:38] "GET /blog/style.css HTTP/1.1" 200 -
+/blog/index.html?pageid=cn0h
+/blog/index.html
+{'pageid': ['cn0h']}
+cn0h
+!!!!!!!!!!!!!!!
+20.204.24.251 - - [03/Feb/2026 10:44:45] "GET /blog/index.html?pageid=cn0h HTTP/1.1" 200 -

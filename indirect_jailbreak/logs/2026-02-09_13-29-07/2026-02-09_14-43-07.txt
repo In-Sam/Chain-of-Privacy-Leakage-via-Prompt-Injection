@@ -1,0 +1,44 @@
+HTTPS server running: https://0.0.0.0:443
+/favicon.ico
+/favicon.ico
+{}
+64.62.197.47 - - [09/Feb/2026 13:34:08] "GET /favicon.ico HTTP/1.1" 404 -
+64.62.197.47 - - [09/Feb/2026 13:34:08] "GET /favicon.ico HTTP/1.1" 200 -
+/admin/config.php
+/admin/config.php
+{}
+102.22.20.125 - - [09/Feb/2026 13:35:00] "GET /admin/config.php HTTP/1.0" 404 -
+102.22.20.125 - - [09/Feb/2026 13:35:00] "GET /admin/config.php HTTP/1.0" 200 -
+/
+/
+{}
+64.62.197.47 - - [09/Feb/2026 13:35:37] "GET / HTTP/1.1" 404 -
+64.62.197.47 - - [09/Feb/2026 13:35:37] "GET / HTTP/1.1" 200 -
+/geoserver/web/
+/geoserver/web/
+{}
+64.62.197.47 - - [09/Feb/2026 13:47:32] "GET /geoserver/web/ HTTP/1.1" 404 -
+64.62.197.47 - - [09/Feb/2026 13:47:32] "GET /geoserver/web/ HTTP/1.1" 200 -
+8.215.41.147 - - [09/Feb/2026 13:49:02] code 501, message Unsupported method ('POST')
+8.215.41.147 - - [09/Feb/2026 13:49:02] "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1" 501 -
+8.215.41.147 - - [09/Feb/2026 13:49:02] code 501, message Unsupported method ('POST')
+8.215.41.147 - - [09/Feb/2026 13:49:02] "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh HTTP/1.1" 501 -
+8.215.41.147 - - [09/Feb/2026 13:49:02] code 501, message Unsupported method ('POST')
+8.215.41.147 - - [09/Feb/2026 13:49:02] "POST /hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 501 -
+8.215.41.147 - - [09/Feb/2026 13:49:11] code 501, message Unsupported method ('POST')
+8.215.41.147 - - [09/Feb/2026 13:49:11] "POST /?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1" 501 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+{}
+8.215.41.147 - - [09/Feb/2026 13:49:30] "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+8.215.41.147 - - [09/Feb/2026 13:49:30] "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 200 -
+/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php
+/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php
+{}
+8.215.41.147 - - [09/Feb/2026 13:49:57] "GET /vendor/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+8.215.41.147 - - [09/Feb/2026 13:49:57] "GET /vendor/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 200 -
+/vendor/phpunit/src/Util/PHP/eval-stdin.php
+/vendor/phpunit/src/Util/PHP/eval-stdin.php
+{}
+8.215.41.147 - - [09/Feb/2026 13:49:57] "GET /vendor/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 -
+8.215.41.147 - - [09/Feb/2026 13:49:57] "GET /vendor/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 200 -

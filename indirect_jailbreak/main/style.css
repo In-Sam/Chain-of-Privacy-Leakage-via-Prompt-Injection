@@ -1,0 +1,24 @@
+#MS {
+    margin-left: 3vh;
+    margin-top: 0vh;
+    height: 97vh;
+    width: 97wh;
+}
+#textarea {
+    position: absolute;
+    left: 680px;
+    top: 373px;
+    height: 30px;
+    width: 390px;
+    padding-top: 14px;
+    border: none;
+    resize: none;
+    font: 16px Arial, sans-serif;
+}
+#textarea:focus {
+  outline: none;
+  border: none; /* Ensure no custom border is added on focus either */
+}
+#maindiv {
+    display: flex;
+}

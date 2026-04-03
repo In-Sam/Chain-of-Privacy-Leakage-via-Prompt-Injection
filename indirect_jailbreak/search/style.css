@@ -1,0 +1,17 @@
+#MS1 {
+    margin-left: 3vh;
+    margin-top: 0vh;
+    height: 97vh;
+    width: 97wh;
+}
+#clickable{
+    position: absolute;
+    left: 250px;
+    top: 713px;
+    height: 130px;
+    width: 670px;
+    cursor: pointer;
+}
+#maindiv {
+    display: flex;
+}

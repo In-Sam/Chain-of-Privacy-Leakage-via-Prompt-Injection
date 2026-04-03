@@ -1,0 +1,106 @@
+1. 표지 (Title)
+Linux Utilization
+부제: 시스템 자원 사용률 분석과 최적화
+발표자 / 날짜
+
+2. Linux Utilization이란?
+Linux 시스템에서 자원의 사용 상태를 측정·분석하는 개념
+주요 목적
+성능 병목 파악
+안정성 확보
+비용 및 자원 최적화
+Utilization ≠ Performance (차이 간단 설명)
+
+3. 주요 자원 유형 개요
+CPU Utilization
+Memory Utilization
+Disk I/O Utilization
+Network Utilization
+(선택) Swap / Load Average
+
+4. CPU Utilization
+CPU 사용률의 의미
+User / System / Idle / I/O wait
+주요 지표
+CPU %
+Load Average
+대표 명령어
+top, htop
+mpstat, uptime
+병목 예시
+CPU 100% 지속 상태
+
+5. Memory Utilization
+메모리 구조
+Used / Free / Buffers / Cache
+Linux의 메모리 관리 특징
+캐시 적극 사용
+주요 지표
+Available Memory
+Swap 사용 여부
+대표 명령어
+free -h
+vmstat
+
+6. Disk I/O Utilization
+디스크 사용률 vs I/O 병목
+주요 지표
+IOPS
+Read/Write Throughput
+I/O wait
+대표 명령어
+iostat
+iotop
+병목 사례
+디스크 대기 시간 증가
+
+7. Network Utilization
+네트워크 사용률의 의미
+주요 지표
+Throughput (RX/TX)
+Packet Drop
+Latency
+대표 명령어
+ifstat
+ss
+netstat
+
+8. 종합 지표와 Load Average
+Load Average의 의미
+CPU + I/O 대기 포함
+CPU 코어 수와의 관계
+오해하기 쉬운 포인트 정리
+
+9. Utilization 모니터링 도구
+CLI 기반
+top, htop, vmstat
+GUI / 시각화
+Grafana
+Prometheus
+로그 기반 분석
+sar
+
+10. Utilization 분석 시 주의사항
+순간 값 vs 장기 추세
+단일 지표에 의존하지 말 것
+정상 상태에서도 높은 Utilization이 가능함
+
+11. 최적화 전략 개요
+CPU
+프로세스 분산
+스케줄링 조정
+Memory
+캐시 활용 이해
+Swap 튜닝
+Disk / Network
+I/O 분산
+비동기 처리
+
+12. 실제 운영 사례 (선택)
+서버 장애 원인 분석 흐름
+Utilization 지표로 문제를 찾는 과정
+
+13. 정리
+Linux Utilization은 진단 도구
+정확한 해석이 핵심
+모니터링 + 분석 + 개선의 반복
